@@ -11,7 +11,7 @@ const SignupPage = () => {
       <h1>Create an account</h1>
       <div className="column">
         <Illustration />
-        <Form className={`${classes.Signup}`}>
+        <Form className={classes.Signup}>
           <TextInput type="text" placeholder="Enter name" icon="person" />
           <TextInput
             type="email"
@@ -29,7 +29,7 @@ const SignupPage = () => {
           <Button>Submit now</Button>
 
           <div className="info">
-            Already have an account? <a href="login.html">Login</a> instead.
+            Already have an account? <a href="">Login</a> instead.
           </div>
         </Form>
       </div>
