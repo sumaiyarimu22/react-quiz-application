@@ -26,7 +26,9 @@ const SignupPage = () => {
           />
 
           <Checkbox text="I agree to the Terms & Conditions" />
-          <Button>Submit now</Button>
+          <Button>
+            <span>Submit now</span>
+          </Button>
 
           <div className="info">
             Already have an account? <a href="">Login</a> instead.

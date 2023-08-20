@@ -24,7 +24,9 @@ const LoginPage = () => {
             icon="lock"
             required
           />
-          <Button type="submit">Submit Now</Button>
+          <Button type="submit">
+            <span>Submit Now</span>
+          </Button>
           <div className="info">
             Dont have an account?<a href=""> Signup </a>
             instead.
