@@ -1,6 +1,7 @@
 import "../styles/App.css";
 import Layout from "./Layout";
-import QuizPage from "./pages/Quiz";
+import Result from "./pages/Result";
+// import QuizPage from "./pages/Quiz";
 // import LoginPage from "./pages/Login";
 // import HomePage from "./pages/Home";
 // import SignupPage from "./pages/Signup";
@@ -11,7 +12,8 @@ const App = () => {
       {/* <HomePage /> */}
       {/* <SignupPage /> */}
       {/* <LoginPage /> */}
-      <QuizPage />
+      {/* <QuizPage /> */}
+      <Result />
     </Layout>
   );
 };
