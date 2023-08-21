@@ -1,5 +1,5 @@
 import Videos from "../Videos";
-const HomePage = () => {
+const Home = () => {
   return (
     <div>
       <Videos />
@@ -7,4 +7,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Home;

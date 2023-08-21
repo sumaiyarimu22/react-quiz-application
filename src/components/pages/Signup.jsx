@@ -4,8 +4,9 @@ import classes from "../../styles/Signup.module.css";
 import TextInput from "../TextInput";
 import Checkbox from "../Checkbox";
 import Button from "../Button";
+import { Link } from "react-router-dom";
 
-const SignupPage = () => {
+const Signup = () => {
   return (
     <>
       <h1>Create an account</h1>
@@ -31,7 +32,7 @@ const SignupPage = () => {
           </Button>
 
           <div className="info">
-            Already have an account? <a href="">Login</a> instead.
+            Already have an account? <Link href="">Login</Link> instead.
           </div>
         </Form>
       </div>
@@ -39,4 +40,4 @@ const SignupPage = () => {
   );
 };
 
-export default SignupPage;
+export default Signup;

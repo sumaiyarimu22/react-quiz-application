@@ -5,7 +5,7 @@ import Illustration from "../Illustration";
 
 import classes from "../../styles/Login.module.css";
 
-const LoginPage = () => {
+const Login = () => {
   return (
     <>
       <h1>Login to your account</h1>
@@ -37,4 +37,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default Login;

@@ -1,19 +1,22 @@
 import "../styles/App.css";
 import Layout from "./Layout";
 import Result from "./pages/Result";
-// import QuizPage from "./pages/Quiz";
-// import LoginPage from "./pages/Login";
-// import HomePage from "./pages/Home";
-// import SignupPage from "./pages/Signup";
+import Quiz from "./pages/Quiz";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
+import Signup from "./pages/Signup";
+import { Routes, Route } from "react-router-dom";
 
 const App = () => {
   return (
     <Layout>
-      {/* <HomePage /> */}
-      {/* <SignupPage /> */}
-      {/* <LoginPage /> */}
-      {/* <QuizPage /> */}
-      <Result />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="quiz" element={<Quiz />} />
+        <Route path="result" element={<Result />} />
+      </Routes>
     </Layout>
   );
 };

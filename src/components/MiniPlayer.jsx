@@ -7,10 +7,7 @@ const MiniPlayer = () => {
       <span className={`material-icons-outlined ${classes.open}`}>
         play_circle_filled
       </span>
-      <span className={`material-icons-outlined ${classes.close}`}>
-        {" "}
-        close{" "}
-      </span>
+      <span className={`material-icons-outlined ${classes.close}`}>close</span>
       <img src={image} alt="alt Tag" />
       <p>#23 React Hooks Bangla - React useReducer hook Bangla</p>
     </div>

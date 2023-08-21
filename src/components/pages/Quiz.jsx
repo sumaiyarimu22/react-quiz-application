@@ -2,7 +2,7 @@ import Answers from "../Answers";
 import MiniPlayer from "../MiniPlayer";
 import ProgressBar from "../ProgressBar";
 
-const QuizPage = () => {
+const Quiz = () => {
   return (
     <>
       <h1>Pick three of your favorite Star Wars Flims</h1>
@@ -14,4 +14,4 @@ const QuizPage = () => {
   );
 };
 
-export default QuizPage;
+export default Quiz;
